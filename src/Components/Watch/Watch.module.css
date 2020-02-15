@@ -1,0 +1,23 @@
+.watchBand {
+  width: 400px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+}
+
+.watch {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+.WatchNone {
+    display: none;
+}
+  
+.watchWrapper {
+    width: 40%;
+  }

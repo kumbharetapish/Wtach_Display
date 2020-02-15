@@ -1,0 +1,19 @@
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.heading {
+  font-size: 34px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  margin: 10px 0px;
+  width: 70%;
+}
+.headingWrapper p {
+  font-size: 15px;
+  text-align: justify;
+  text-transform: capitalize;
+  color: darkgray;
+}

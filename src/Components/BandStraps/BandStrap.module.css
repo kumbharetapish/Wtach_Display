@@ -1,0 +1,55 @@
+.colorsBtnWrapper {
+  width: 100%;
+  align-items: center;
+  margin: 10px 10px;
+}
+h1 {
+  margin: 10px 0px;
+  font-size: 20px;
+  width: 30%;
+}
+
+.colors {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+  display: flex;
+}
+
+.redBand {
+  height: 40px;
+  width: 60px;
+  overflow: hidden;
+  background-color: #ca3d22;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.blueBand {
+  height: 40px;
+  width: 60px;
+  overflow: hidden;
+  background-color: #565681;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.blackBand {
+  height: 40px;
+  width: 60px;
+  overflow: hidden;
+  background-color: #23211f;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.purpleBand {
+  height: 40px;
+  width: 60px;
+  overflow: hidden;
+  background-color: #8a5362;
+  border-radius: 3px;
+  cursor: pointer;
+}

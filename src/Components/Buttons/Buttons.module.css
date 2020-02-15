@@ -1,0 +1,34 @@
+.featuresBtnWrapper {
+  width: 100%;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.featuresBtnWrapper h1 {
+  margin: 10px 0px;
+  font-size: 20px;
+  width: 30%;
+}
+#colors {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+  display: flex;
+}
+.timeBtn,
+.heartBtn {
+  background-color: rgb(228, 228, 221);
+  width: 150px;
+  height: 40px;
+  border-style: none;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+}

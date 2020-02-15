@@ -1,0 +1,59 @@
+.heartbtn {
+    background-color: rgb(228, 228, 221);
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0px 10px;
+    font-size: 15px;
+    outline: none;
+  }
+
+  .heartShow {
+  width: 140px;
+  height: 160px;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  z-index: 200;
+  position: relative;
+  top: -5px;
+  left: -3px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+  
+  .iconWrapper {
+    width: 100px;
+    justify-content: flex-end;
+    display: flex;
+    bottom: -25px;
+    position: relative;
+    font-size: 60px;
+    color: red;
+    animation: pulse 0.8s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1, 1);
+    }
+  
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  .beats {
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+    margin-left: 50px;
+  }
